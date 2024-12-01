@@ -1,0 +1,2 @@
+these notes are for this file:
+    . JS > object2.js

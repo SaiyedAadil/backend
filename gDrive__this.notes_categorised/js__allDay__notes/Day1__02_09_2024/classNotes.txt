@@ -1,0 +1,36 @@
+-   If you have good grasp in the JavaScript.
+-   don't hesitate to ask any
+-   History
+-   independent language
+-   console - it understand compiling.
+-   ReactNative build on javascript that's why.
+
+command:
+    node index.js
+* It has more other the programming language.
+* Mostly well-known as
+    . scripting language
+    . non-browser environment
+    . loosely typed
+    . lightweight
+    . dynamic prog. lang.
+
+- there are lot of concepts attached with them.
+
+command: __for creating file
+.   touch <??>
+
+
+// part 2 - understanding coding -- programming
+-------------------
+| ...Your Code... |  
+-------------------
+
+diagram / flowChart: 
+    . code compiling process
+    . behind the scenes of code compiling/executing processes
+cycle: 
+    . HDD
+    . SSD
+    . RAM
+    . CPU

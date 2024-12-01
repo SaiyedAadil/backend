@@ -1,0 +1,238 @@
+topic: Building an Effective Resume and Optimizing LinkedIn Profile
+
+google search: 
+    . resume template for ms word
+important things:
+    . name part:
+        . name should be in camel case (first letter capital)
+    . sub heading part:
+        . should be, what is the role for you are lookinf for
+        . your name, data scientist
+        . should match with your job profile you're trying(you are applying) for
+    . 2 types : segregation, 20, 20 ratio
+    . 3rd point part: 
+        . your contact info should come below your sub heading
+            .phone nuber
+            . email
+            . linkedin profile
+            . github, only when you deployed something
+            . if you're experienced:
+                . what's experience you had
+                . if related, you still related
+                . if different, not related what you are working for:
+                    .  you can skip,
+            . project:
+                . whenever you write the heading you talk about inexpensive. The teadaches talk about the company, name, and below that, what will you work as in that company
+                . which to which period you did actually
+                . you can write project name
+                    . if sales, don't mention it.
+                . wheer
+                . nobody reads paragraph.
+                . only 10 seconds
+                . just write 3 bullet point:
+                    . 1 bullet should : problem solve you can use chatgpt for best in one line, 1 or 1.5 line
+                    . 2 bullet should: what are the tools and technology useto solve that problem - tools and tech stack
+                    . 3 bullet: what did you actuallyachieve? what di you actually got at end -  anything which quantifiable in numbers - results that can be quantifiable
+                . whenever you're done a project:
+                    . try to push your code on github.
+                . In the experience project for your company
+                . if you are doing self project:
+                    . how can be interviewer, know you have written the code.
+                    . there's 
+                    . in word document: hyperlink, you don't have to write http.gith... etc. just GitHub which stores that link: hyperlink
+            . Now comes skill part:
+                . in case of fresher,
+                . if more than 3 project
+                . 3 should be ideal number 
+                . those project which are matching your jo  profile
+                . good number of text with keywords, you have only 10 seconds to analyse
+    . last 6 point is the Skills:
+        . you have limited:
+        
+        . you have spending 6
+
+        . things:
+            . you can mention database skills
+            . you can mention data science
+            . if yor're right person, you'll know how to categorize,
+            . all these is for patterns
+
+        . just 2 category:
+            . technical
+            . non technical- soft skills, communication, leadership, growth mindset, 
+                . only if you have, and mention
+
+6. point: skillset
+7. point:
+    . you can add education
+
+Not interested:
+    . what did you study?
+    . How much did you score?
+
+. there's a way to write project.
+. you can choose to mention
+. you can choose not to mention
+
+questions:
+    . what are the other skills not job related?
+        . if data analyst:
+            . related:
+                . git,
+                . ..powerbi, aws
+                . programming: python, golang... technical tech stack you have (mention it)
+            . not directly related: don't mention it
+                . poweroint, word etc..
+                . html, css
+    . mention the geniune dates for gap:
+8 point part is :odds and recognitions:
+        . awards and certification
+9 point part: hobbies:
+    . mention onoy if it si adding impact 
+    . add only that makes sense
+    . like active on 
+    . if not then skip it
+
+10. poit part: self declaration is not required:
+    . signature, address, name of parent, ..
+11. point part: required:
+    . about section
+    . only if you have a very spedific thing to talk about , 
+    . ex; you use hard data set to categorize,... 
+    . mention only when:
+        .
+    . don't mention when:
+        .
+. hgihtligh things with boldto attract attention of the people who are looking for
+    . you just have 5 to 10 seconds
+    . highlighth anything; that you want to showcase, important:
+. zoom link shubham lal resume:
+    . 
+
+
+last question:
+    . last ctc
+    . if 25000 
+        . aapko 10 se 35 %
+
+    . fresher air
+    . psycholog, behavior affect, talk affect, eyecontact, tone, 
+    . affect:   
+        . don't make your surrounding in sust, jahil
+        . study of mind is psychologh
+        . study of body is physiology -  
+        . dosc release
+    . do some physical activity for:
+        . breathing exercise
+        . 
+
+    . what did we discussed last time:
+        . smart 
+            . specific : direction
+            . goals: why it is important
+                . mindset needs a goal,
+                    . certain time, goal, body will train like as this.
+                    . mind will work 
+        . personality:
+            . types 6, broader: 4:
+                . you can analyse which type of personality is?
+                    . you can enhance and improve:
+        . sort analysis:
+            . strength:
+                . you have to give example for that.
+                . if you have multitasking:
+                    .you should give example
+            . weaknesses:
+
+            . emotions:
+                . what is your strongest, weakest,
+                . emotional assessment picture
+            . self regulations
+    ///////////////////////////
+. questions:
+            . what is retail industry?
+                . fmcg
+            . homework:
+                . activity:
+                    . see to it, where does your role fits?
+                    . you as a web developer, where does your role fits in different fields/industry/
+                    . when you know this place goes here..., perfect.
+                    . 
+            . types of software?
+            . why communication is need? is important in life, interview?
+                . because employer ku kaisa maloom hona
+                . what about the data you have, you learned
+                . how employer will know?
+                    . by communication only
+        . can you introduce yourself:
+            . important things to mention:
+                . 
+            . not relevant
+            . practice what to speak about this question
+                . for practice: write, script, ...
+                . use your brain
+                . common sense
+                . good after noon ma'am
+                . I've done my education abc college
+            1. name:
+            2. education:
+                . latest to old
+            3. technical education:
+                . after completing I have this certification course from ...
+        4. judge yourself
+            5. job / project
+                . I have done project/job of data science/ web development
+            6. work/strengths/extra curricular activities
+                . I've workes with an ngo for .../
+                . all company have an ngo
+                    . they help the people who do not in goodand in need
+            7. Mya be you're a little bit less in gtechnical ed.. but if you work with any ngo, company iwth a corporate social responsitibility may, you gmight be good in cricket or any sports. her company crikec , team readoy enought.extra that you have you sadi here o
+            . practice . practice . practice homework / activity
+            . smile, greeting, I have done, from, moving forward, I've done job, internship, project, lastly, volunteeered myself picture ngos, 
+            . speak good, very good, confidence, 19 / 20 chaljata. 
+
+            . 
+. today session: software industry overviewe:
+        . It's better to be prepared for an opportunity not an 
+                    . 1 angle: you didn't have one opportunity now, but you make sure to ready when it comes
+                    . 2nd angle: rather than having an opportunity and you are not prepared:
+        . time diyo re baba roz kitna time dere laptop pe?
+        . time management: 
+             . 24 hours        
+             . include sleep ... hours
+             . this comes in self analysis
+        . if you're prepared
+            . 
+        
+    
+    . the more you speak the more you get out your mindset
+    . before software is just part:
+        . if you're data analysis, what is your role in automobile industry?
+    . In any industry:
+        . where does your role fit in?
+    . types of software;
+        . enterprise based
+        . application based
+        . system based
+        . driver based
+        . if you don't know, please do this basic as homework/activity
+        . where does I'm fit in this software types.
+        . your cv, your industyr, your work, jitna clear rahinga utna achha hai
+    . resume specific rehna, patterns match hona
+    . essential skills:
+        . communication
+        . team work
+        . adaptability
+        . technical skills
+        . 
+
+
+. topic:
+    . sotware industries overview
+    . industries around us
+    . essential skills
+    . 
+
+real duniya mai rehke bhi sapno pe sochne mai rehgaya gadha
+doper me kesi neend aatiye, aisa lagtay kya karrau mai, zindagi, time, achha bura, time kam hai, kya karna hai, kya nai karna hai, sab dhyan mai aatay, kaisa ki dar lagtay, dil bhi achanak tez dodne lagta, sachhai... allah paak, dar lagne lagta ek ajeeb sa dar hotay,lekin achha hai, ek point nikl ke aatay 
+

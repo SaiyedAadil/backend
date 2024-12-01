@@ -1,0 +1,41 @@
+JavaScript
+start today 02-09-2024
+
+JavaScript is a programming language
+
+History
+
+initially had a name as livescript.
+but Java is very popular at that time.
+essentially gave a bit of kind of moment as well.
+people attracted javascript than java.
+but again JavaScript is independent language
+
+learning prog. lang. nevere by heart.
+there are certain topics that are very similar, just syntax change.
+
+. understand what the syntax is doing
+
+variable: in a prog. lang. 
+address of the memory, location of the memory
+store somewhere in a memory
+
+keyword: var, let, const
+
+benefit: you can access the value
+Data type: a type of data, what type of data is it called?
+
+sir if consolelog is written before we change its variable ,what value do we get?
+
+in variable these things are happening: declare, initialize
+
+assignment: in portal
+note: open only for Monday(today)
+.........IMPORTANT...........
+
+command for creating new file through windows terminal:
+cd . > server.js
+
+
+
+

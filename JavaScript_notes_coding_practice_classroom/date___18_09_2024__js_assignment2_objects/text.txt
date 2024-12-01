@@ -1,0 +1,121 @@
+fizzBuzz problem solving:
+first both condition 3 and 5 divisible:
+why is that?
+    . we gonna know, first both condition
+It doesn't really mean, there are various application using reduce method:
+    . asked to me interview question based on reduce method
+
+    . next question :
+        . what is factorial?
+        . if 3 : 3 x 2 x 1;
+        . edge case?
+    . edge cases what? need to handle in coding...
+.   why using reduce we using?
+we have already know>>>
+we dont' know: logic building;
+// times>>>
+remember: t = 7__52
+important thing: 7__57 to 8__00 to 8__5-6
+    . 8__8
+intersting:
+    . 8__11__ to ...
+=================================================
+
+programming/logic building : 
+    . prime number:
+        . you taking example of 2, 
+        . but you have to think what if I give some other number
+        . what could be the logic?
+        . we already know this there are 2 multiples of a number, a number itself and 1.
+        . 
+
+=================================================
+    . long method
+    . lengthy method
+    . short method
+=================================================
+remember:
+    . Running more loops is not good for your optimize code.
+    . The lesser loops you write, the faster your code runs.
+    . function must return something
+    . another method of forming this thing, 
+    . there are typically two ways how program works
+        1. there is recursive method : call same function itself again and again
+        2. step by step
+    
+=================================================
+important: 
+    . factorial:
+        . what we essentially do is?
+        . newbie code will be: you start from for loop
+        . but,
+        . 
+=================================================
+questions: 
+    . factorial, what is factorial?
+    . when it says 3 factorial, what does it mean? ans: 3 x 2 x 1 (you are just multiplying until it reaches 1) 
+    . what are edge cases? (scenarios which will give you wrong answers)
+    . why are we writing these values(while writing loop)
+    . why are we using reduce?
+        . ans: you are not wanting any kind of filter, array, and you are expecting different data type as well (not necessary in array).
+            1. because we are performing an operation at the end of the loop. 
+            2. when we are expecting different data type in return
+    . what is a prime number?
+    . How do you check if there number prime or not? programmatically? (this will test your logic)
+        . ans: the multiples of itself and 1
+    . What logic can be used to check whether a give number is prime or not programmatically?
+    . what is object? // oops concept.. any definitio
+    . what do you think an object is?
+        . ans:
+            . a real life entity
+            . objects are considered as a real life entity
+            . it has properties and values
+            . this object, it has this property, it has this value.
+            . ex: phone is also object, and specification, hardwares, softwares are values.
+    . In js object: topics knowledge:
+        . creation object method: many ways like
+            . object literals like obj = {}
+            .
+        . encapsulation:
+            . this obj become the data type where you encapsulate multiple data (this obj, become variable wehre you encapsulate multiple data)
+            . 
+        . we can add a function as well in key value pairs
+        . everything in js is stored as an object
+        . why is it stored in object...?
+        . but that obj is essentially called as object:
+            . how? all the necessary details, single entity.. direct creation are stored in 
+            . school multiple student details -> array of objects: majorly used for
+            . each object referring to one single entity.
+        . (.)dot notation 
+            . creation of key, and accessing key (.) notation
+        . rules and regulations while creating the key/property/assigning value
+    . how you access it, how you put values into it, but similar variable creation..
+
+
+=================================================
+interesting: 
+    . interview questions based on topic(any)
+    . like reduce method, objects etc...
+    . the way you are writing a property
+    . creation of object : many methods/ways
+=================================================
+terminology: 
+    . encapsulation
+=================================================
+
+=================================================
+
+=================================================
+
+
+
+
+
+
+
+
+
+
+t:
+    . 8__00 to 12
+object2:

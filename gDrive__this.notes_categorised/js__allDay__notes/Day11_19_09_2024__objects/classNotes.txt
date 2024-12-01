@@ -1,0 +1,40 @@
+Topic:
+    . Objects
+
+. what will be the structure of Contacts, which is in your phone
+
+take exampl of zomato (food delivery app)
+    . when you order, it's actually behind the scenes do this information structure in object format
+    . that data is only information
+    . in any application you take,
+    . the core thing is,
+        . you're capturing the data and sending it to someone
+    . this is the lowest level of that entire process:
+        . lowest level system design
+        . where you're starting, where does at story begins
+        . story begins from this
+
+let's discuss methods in objects:
+    . I'm creating a method in my person object:
+        . changePrimary: function (){}
+
+    . this keyword:
+        . it behaves differently in different scenarios
+        . 
+    . what map function essentially do
+        . map function essentially does is
+            . 1 is, it performs an operation on each element
+            . 2 is, the operation is again, stored in a new array
+            . it generates an array, and stores the result of each operation on each element
+    . spread operator
+    
+    . in js, we call it serialization of objects:
+        . json.stringify()
+        . json.parse()
+
+concepts:
+    . shallow copy --> 1st level, for in loop
+    . deep copy --> deep level, JSON
+
+
+

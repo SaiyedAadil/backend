@@ -1,0 +1,44 @@
+live-today-class-
+
+log(b-operand < Number(a))
+we can do multiple operations in arithmetic in single syntax.
+It's essentially BODMAS, following here.
+
+Everything in electronic world. they are built on binary values.
+
+three logical operators, you can combine
+. deals with Boolean values 
+. it could be any value that amounts to be truthy, falsy values,
+
+. What are falsy values.
+h: those are falsy: 0, "", nulll, undefined, NaN 
+any thing besides this, is considered as
+. truthy values. except {}, []
+
+everything in javascript is considered as values even null.
+
+q: what are logical operators:
+h: 
+
+// AND operator:
+h: and operator: 
+gives "true", only both are true
+
+que: what is the use of logical operator?
+h: example age logical application, input age, 
+Control statements
+
+que:What is if,else
+h: control flow statement, conditional statements.
+
+what is elseIf statement 
+h: elseIf Ladder, ...
+
+How is this working now?
+
+
+
+
+
+
+

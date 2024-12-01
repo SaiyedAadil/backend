@@ -1,0 +1,53 @@
+SDLC
+No notes
+
+Ternary Operator
+No notes
+
+Functions
+What are Functions?
+A block of code that can be invoked multiple times
+Needs to be called to run the block of code
+
+4 Ways to Create Functions
+Function Declaration
+function (){}
+Example: function add(){}
+
+Function Expression
+const subtract = function() {}
+
+Arrow Function
+let add = () => {}
+
+Function Constructor (not mentioned explicitly, but implied as the 4th way)
+
+Advanced Topics
+this Keyword
+Advanced topic
+How functions work in different scopes
+Return Statement
+Represents the closure of a function
+If only return; is used, it returns undefined
+
+Making Functions Dynamic
+Use arguments and parameters
+
+Default parameters in ES6
+Only work when a parameter is undefined
+
+Questions
+What is console?
+When to use return in functions? (To be covered soon in recursion)
+When to ask about a function when declaring it?
+
+Keywords for Notes
+new
+que
+ans
+
+Interesting Times
+8:18
+8:19
+8:21-22
+// Let me know if you'd like me to reorganize or add anything!

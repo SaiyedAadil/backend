@@ -1,0 +1,11 @@
+    . ECMAscript
+
+    . loosely typed
+
+    . light weight
+
+    . scripting language
+
+    . interpreted prog. lang.
+
+    . RAM

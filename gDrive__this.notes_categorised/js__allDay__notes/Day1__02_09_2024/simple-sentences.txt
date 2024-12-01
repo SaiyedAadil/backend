@@ -1,0 +1,18 @@
+    . That's possible due to outside other engines.
+
+    . It's say specific to browsers
+
+    . Many developers joined ahead overtime... IoT, devices, ...
+
+    . Let me move ahead
+
+    . Executing ...
+    
+    . RAM - Short term memory
+
+    . When you run the file, space has alotted in RAM
+        . once processor understands, -it could be logical
+          operations, or even in & output.
+        . it will handle HTTP (protocol)
+    . That tell the JS engine.
+    . What you can do JS?

@@ -1,0 +1,300 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+nav {
+    box-shadow: 0 15px 40px -20px rgba(40, 44, 63, .15);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(3px);
+    z-index: 2;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+
+.left-nav {
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.left-nav img {
+    transition: all ease-in-out 255ms;
+}
+
+.left-nav img:hover {
+    cursor: pointer;
+    scale: 1.22;
+}
+
+.left-nav .nav-other {
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: 1.6px solid rgba(128, 128, 128, 0.808) underline;
+}
+.left-nav .nav-other:hover{
+    color: #ff5200;
+}
+
+sup {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-weight: bolder;
+    color: #ff5200;
+}
+
+.right-nav {
+    width: 70%;
+    font-size: 1.2rem;
+
+}
+
+.right-nav ul {
+    list-style: none;
+    width: 100%;
+    height: 70px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.right-nav ul li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.right-nav ul li:hover {
+    cursor: pointer;
+    color: #ff5200;
+}
+
+.right-nav ul li img {
+    margin-right: 10px
+}
+
+.abc {
+    width: 170px;
+}
+
+main {
+    margin-top: 20px;
+    padding: 0 12%;
+}
+
+.main-container {
+    width: 100%;
+    /* height: 250px; */
+    /* background-color: rgba(0, 200, 255, 0.166); */
+
+}
+
+.section-container .mind-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+
+}
+
+ h1 {
+    font-weight: 900;
+}
+
+.section-container img {
+    object-fit: cover;
+}
+
+.mind-question div:first-child {
+    background-color: lightgray;
+}
+
+.mind-question div>div {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.mind-question div .right-arrow {
+    background-color: darkgray;
+}
+
+hr {
+    border: 1px solid rgba(2, 6, 12, 0.05);
+    margin: 32px calc(10% + 52px);
+}
+
+.row {
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+    transition: all 0.5s;
+}
+
+.mind-item1 {
+    padding-left: 16px;
+    padding-right: 24px;
+    transition: all 0.5s;
+
+}
+
+.mind-item2 {
+    padding-right: 24px;
+}
+.restaurants-container{
+    width: 300px;
+    /* height: 200px; */
+    /* background-color: beige; */
+    display: grid;
+    transition: 0.05s;
+    cursor: pointer;
+    gap: 12px;
+    grid-auto-flow: row;
+    justify-content: stretch;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;;
+}
+.restaurants-container:hover{
+    transform: scale(0.95);
+}
+
+.restaurants-container .box-image, .box-image img{
+    width: 100%; 
+    position: relative;
+    border-radius: 16px;
+
+}
+.restaurants-container .box-image{
+    border-radius: 16px;
+}
+.box-image > div{
+    position: absolute;
+    bottom: 40px;
+    height: 30%;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 22px;
+    letter-spacing: -0.5px;
+    color: rgba(255, 255, 255, 0.92);
+    width: 100%;
+    display: -webkit-box;
+    background: linear-gradient(rgba(27, 30, 36, 0) -3%, rgb(27, 30, 36) 84.21%);
+    /* background-color: blue; */
+}
+.restaurant-detail{
+    display: grid; 
+    padding: 5px 5px 15px 15px;
+    background-color: rgba(0, 0, 255, 0.145);
+    margin-bottom: 55px;
+    font-size: 1.2rem;
+}
+
+.filter-container{
+    height: 200px;
+    /* background-color: beige; */
+}
+.filter-container h1{
+    margin-bottom: 1.6rem;
+}
+.filter-box{
+    padding: 1rem 0;
+    position: sticky;
+    /* background-color: yellow; */
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter-box span {
+    font-size: 14px;
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(2, 6, 12, 0.15);
+    padding: 9px 12px;
+}
+.all-items-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.all-items-container #adjust4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+/* ==================== footer ================= */
+footer{
+    padding: 2rem;
+    border: 2rem solid transparent;
+    border-top: none;
+}
+.best-places{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    
+}
+footer h2{
+    margin: 1.5rem 0;
+    
+}
+footer div{
+    padding: 16px;
+    border: 1.5px solid rgba(2, 6, 12, 0.1);
+    border-radius: 12px;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgb(2, 6, 12);
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+.explore-every-restaurans{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}

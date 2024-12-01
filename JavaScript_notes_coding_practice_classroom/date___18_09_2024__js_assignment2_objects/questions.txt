@@ -1,0 +1,9 @@
+// interview question:
+question:
+    . 
+
+logic:
+    . going through the undefined
+    . writing condition
+    . multiple ways to solve problem:
+        . reduce()

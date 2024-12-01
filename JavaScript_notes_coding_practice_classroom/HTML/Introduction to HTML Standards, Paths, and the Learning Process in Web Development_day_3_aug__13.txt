@@ -1,0 +1,27 @@
+Introduction to HTML Standards, Paths, and the Learning Process in Web Development
+- you've compiled notes on HTML and some foundational concepts, particularly regarding standards, paths, and how learning is an ongoing process in web development.
+
+Breakdown of your notes:
+
+1. HTML Standards:
+   - Who maintains the standard?
+     - The W3C (World Wide Web Consortium) is responsible for maintaining web standards.
+   - How do they maintain these standards?
+     - W3C establishes a set of rules and regulations that define how web technologies should function to ensure consistency across browsers and devices.
+
+2. Absolute Path:
+   - An absolute path is a full web address that provides the complete path to a resource (such as an image).
+   - Example:
+     - An image stored on a different server is referenced in the `src` attribute with its full URL (absolute path).
+
+3. Hypertext and Hyperlinks:
+   - Hypertext refers to text with links to other text, which is where the term hyperlink comes from in HTML.
+   - HTML is based on this idea, using hyperlinks to connect different pages or resources.
+
+4. Learning and Knowledge Acquisition:
+   - The idea is that formal education only provides a portion (20-30%) of what you'll need to know in the field of web development. The rest comes from:
+     - Your own research (20%)
+     - Real-world job experience (20%)
+     - A certain percentage will always be unknown or beyond reach, representing the vast "ocean" of knowledge.
+
+Would you like to dive deeper into any of these concepts, or expand your notes further?

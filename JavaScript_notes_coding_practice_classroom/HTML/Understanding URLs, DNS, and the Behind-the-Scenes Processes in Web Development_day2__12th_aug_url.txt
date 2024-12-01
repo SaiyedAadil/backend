@@ -1,0 +1,40 @@
+Understanding URLs, DNS, and the Behind-the-Scenes Processes in Web Development
+
+notes about web basics! Here’s a simplified overview of those concepts:
+
+### URL
+- Definition: A URL (Uniform Resource Locator) is the address used to access a specific resource on the internet.
+
+### Resources Loaded
+- Process: When you visit a website, various resources load in stages:
+  - Webpages (HTML, CSS)
+  - Images
+  - Videos
+  - Fonts
+- Data Transmission: These resources come in packets, loading piece by piece.
+
+### DNS (Domain Name System)
+- Function: DNS translates domain names (like google.com) into IP addresses, allowing browsers to locate servers.
+- Example: When using Google Maps, DNS helps identify your location via IP.
+
+### Internet
+- Definition: The internet is a vast network of interconnected computers.
+- Connection: Each device is assigned an IP address, which is difficult to remember compared to domain names.
+
+### Metadata
+- Definition: Metadata provides information about a website, often included in the `<head>` tag of HTML.
+
+### Body Tag
+- Definition: The `<body>` tag contains the main content displayed on a webpage.
+
+### Localhost URL
+- Definition: A localhost URL refers to a web server running on your local machine (e.g., accessing via port 5500).
+
+### Tags and Standards
+- Question: What do tags do? Tags define the structure and content of a webpage.
+- Question: What is the use of `<!DOCTYPE html>`? It declares the HTML version being used, ensuring compliance with standards.
+
+### Key Points
+- Client/Server Model: A lot happens behind the scenes in the client-server architecture, where files are stored and retrieved.
+
+If you need any more details or a specific topic explained, feel free to ask!

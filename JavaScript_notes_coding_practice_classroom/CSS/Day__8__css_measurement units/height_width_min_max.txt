@@ -1,0 +1,21 @@
+height, width
+
+what is pixel?
+h: It represents single LED in the screen that you see/
+
+how height and width works?
+how box sizing works actually? //it's very much related to height and width.
+
+And then, A lot of different stuff related to positioning.
+
+how an element position itself?
+
+height, and width,
+
+If I remove the height from here, it's occupying the space necessary to and close the text.
+
+overflow:
+the height limit cross, then the content overflow,
+actually rem can be used, it's against the standard but, you can use also.
+
+max-height:

@@ -1,0 +1,205 @@
+// terminology:
+    . encapsulation:
+        . when you storing multiple data of a single person/entity is essentially known as encapsulation
+
+// new
+// objects: real life entity
+let obj = {}
+obj["full name"] = "Syed Sayeed"
+obj.classNo = 5;
+console.log(obj["full name"]);
+
+==========================================================================
+ . what is object? // oops concept.. any definitio
+    . what do you think an object is?
+        . ans:
+            . a real life entity
+            . objects are considered as a real life entity
+            . it has properties and values
+            . this object, it has this property, it has this value.
+            . ex: phone is also object, and specification, hardwares, softwares are values.
+    . In js object: topics knowledge:
+        . creation object method: many ways like
+            . object literals like obj = {}
+            .
+        . encapsulation:
+            . this obj become the data type where you encapsulate multiple data (this obj, become variable wehre you encapsulate multiple data)
+            . 
+        . we can add a function as well in key value pairs
+        . everything in js is stored as an object
+        . why is it stored in object...?
+        . but that obj is essentially called as object:
+            . how? all the necessary details, single entity.. direct creation are stored in 
+            . school multiple student details -> array of objects: majorly used for
+            . each object referring to one single entity.
+        . (.)dot notation 
+            . creation of key, and accessing key (.) notation
+        . rules and regulations while creating the key/property/assigning value
+    . how you access it, how you put values into it, but similar variable creation..
+. questions: 
+    . how you generate object out of classes?
+        . classes are like they define the structure of how our object look like
+
+. Notes:
+    . // OOPs concep start with objects
+
+// let obj = {
+//     name: "name1",
+//     class: "MERN",
+
+
+// }
+// a function is declared in a method is essentially known as method;
+
+let obj = {}
+let trainer = [];
+obj["full name"] = "john deo";
+obj.classNo = 5;
+console.log(obj["full name"], obj);
+==========================================================================
+
+_*_*_*_*_*_*_*_*_*_*_*_*__*_*_*_*_*_*_*_*_*_*_*_*__*_*_*_*_*_*_*_*_*_*_*_*_
+AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI 
+_*_*_*_*_*_*_*_*_*_*_*_*__*_*_*_*_*_*_*_*_*_*_*_*__*_*_*_*_*_*_*_*_*_*_*_*_
+
+Here's a concise summary of your notes on objects and encapsulation in JavaScript, along with some explanations of key concepts:
+
+### Terminology and Concepts
+
+#### 1. **Encapsulation**
+- **Definition**: Encapsulation is the concept of storing multiple data points about a single entity within a single structure (e.g., an object). It allows you to bundle related properties and methods together, enhancing data organization and security.
+
+#### 2. **What is an Object?**
+- **Definition**: In JavaScript, an object is a real-life entity that has properties and values. It represents a collection of data and functionality that pertains to that entity.
+- **Example**: A phone can be an object with specifications (like brand, model, etc.) as properties and their corresponding values.
+
+#### 3. **Creating Objects**
+- **Object Literals**: 
+  ```javascript
+  let obj = {};
+  obj["full name"] = "Syed Sayeed";
+  obj.classNo = 5;
+  console.log(obj["full name"]); // Outputs: Syed Sayeed
+  ```
+
+- **Encapsulation in Objects**: Objects serve as data types where you can encapsulate multiple data points related to a single entity (like a student’s details).
+
+#### 4. **Object Properties and Methods**
+- **Adding Functions**: You can also add functions to objects as methods:
+  ```javascript
+  let person = {
+      name: "John",
+      greet: function() {
+          console.log("Hello, " + this.name);
+      }
+  };
+  person.greet(); // Outputs: Hello, John
+  ```
+
+#### 5. **Accessing Object Properties**
+- **Dot Notation**: You can access properties using dot notation:
+  ```javascript
+  console.log(person.name); // Outputs: John
+  ```
+
+- **Bracket Notation**: Useful for property names that are not valid identifiers:
+  ```javascript
+  console.log(obj["full name"]); // Outputs: Syed Sayeed
+  ```
+
+#### 6. **Classes and Object Generation**
+- **Classes**: Classes define the structure and blueprint for creating objects. You can generate objects from classes using the `new` keyword:
+  ```javascript
+  class Student {
+      constructor(name, classNo) {
+          this.name = name;
+          this.classNo = classNo;
+      }
+  }
+  
+  let student1 = new Student("John Doe", 5);
+  console.log(student1.name); // Outputs: John Doe
+  ```
+
+### Summary
+- **Objects** are fundamental to JavaScript and OOP (Object-Oriented Programming). They allow you to encapsulate data and functionality related to real-life entities.
+- You can create objects using literals, classes, and constructors, and access their properties using both dot and bracket notation.
+- Understanding objects is crucial for efficient data management and structure in JavaScript applications.
+
+Feel free to ask if you have any questions or need further explanations on specific topics!
+
+_*_*_*_*_*_*_*_*_*_*_*_*__*_*_*_*_*_*_*_*_*_*_*_*__*_*_*_*_*_*_*_*_*_*_*_*_
+AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI AI 
+
+Your notes dive into key Object-Oriented Programming (OOP) concepts like **objects** and **encapsulation**. Here's a summarized breakdown:
+
+### 1. **Encapsulation**:
+- **Definition**: Encapsulation is the concept of bundling multiple data items (or properties) together into a single entity (object).
+- Example: An object stores various properties of a single entity, such as:
+  ```js
+  let person = {
+      name: "Syed Sayeed",
+      age: 25,
+      occupation: "Engineer"
+  };
+  ```
+  Here, `person` encapsulates different data (name, age, occupation).
+
+### 2. **Objects in JavaScript**:
+- **Definition**: An object is a real-life entity that has properties (attributes) and methods (behaviors).
+- **Example**: 
+  ```js
+  let phone = {
+      brand: "Apple",
+      model: "iPhone 13",
+      storage: "128GB"
+  };
+  ```
+  The phone object has properties like `brand`, `model`, and `storage`.
+
+- **Object Creation**: There are multiple ways to create objects:
+  - **Object literals**: 
+    ```js
+    let obj = {};
+    obj.name = "John Doe";
+    ```
+  - Using **constructors** or **classes** for creating structured objects (often for larger, complex programs).
+
+### 3. **Accessing Object Properties**:
+- **Dot notation**: The most common way to access properties.
+  ```js
+  console.log(obj.name); // Access the name property
+  ```
+- **Bracket notation**: Used when property names have spaces or special characters.
+  ```js
+  console.log(obj["full name"]); // Access properties with spaces
+  ```
+
+### 4. **Methods in Objects**:
+- When a function is assigned as a value inside an object, it is referred to as a **method**:
+  ```js
+  let car = {
+      brand: "Toyota",
+      start: function() {
+          console.log("Car started");
+      }
+  };
+  car.start(); // Outputs: Car started
+  ```
+
+### 5. **Classes**:
+- **Definition**: A class defines the structure of an object, like a blueprint. You generate objects from classes.
+- **Example**:
+  ```js
+  class Person {
+      constructor(name, age) {
+          this.name = name;
+          this.age = age;
+      }
+  }
+  let person1 = new Person("Alice", 30); // Creating an object from a class
+  ```
+
+Objects are fundamental to OOP as they allow you to model and manipulate real-world entities. Would you like to explore more about classes or any specific OOP concept?
+
+_*_*_*_*_*_*_*_*_*_*_*_*__*_*_*_*_*_*_*_*_*_*_*_*__*_*_*_*_*_*_*_*_*_*_*_*_

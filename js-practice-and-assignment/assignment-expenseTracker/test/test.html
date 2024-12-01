@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker Application</title>
+    <link rel="stylesheet" href="test.css" />
+    <style>
+        
+    </style>
+  </head>
+
+  <body>
+    <main class="container">
+      <h1>Expense Tracker app</h1>
+      <form action="">
+        <input
+          id="expName"
+          name="expName"
+          type="text"
+          placeholder="expense name"
+          required
+        />
+        <input
+          id="expAmt"
+          name="expAmt"
+          type="number"
+          placeholder="amount spent"
+          step="0.01"
+          required
+        />
+        <input type="submit" id="submit" />
+      </form>
+      <button class="theme-btn">Toggle Theme</button>
+    </main>
+    <div id="listExp">
+
+    </div>
+
+    <section id="total-container">
+      <p id="total-val">Total: 0</p>
+    </section>
+    <div class="temp"></div>
+    <div class="temp"></div>
+    <script src="test.js"></script>
+  </body>
+</html>

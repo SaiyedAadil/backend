@@ -1,0 +1,44 @@
+developing ecommece cart
+
+2 classes
+Product, ShoppingCart
+
+purpose:
+1. Product
+    . to represent items in the cart
+    . each product has a 
+    . name, price and stock quantity
+2. ShoppingCart:
+    . to manage the products in the cart
+
+functionality >:
+    . calculation of total price
+    . handle the addition
+    . removal of items
+
+extras:
+    . manage discounts 
+    . and
+    . apply them to the total price?
+
+<!--
+JS Dom Expense Tracker
+Create a basic Expense Tracker application using HTML, CSS, and JavaScript. The goal is to let users add expenses, display them in a list, and keep track of the total amount spent.
+
+Requirements:
+    . HTML Structure:
+        . A form with input fields for the expense name, amount, and a submit button to add the expense.
+        . A list to display the added expenses (each entry should show the expense name and amount).
+        . A section to display the total expenses.
+
+CSS Styling:
+    . Style the form, expense list, and total expense section.
+    . Make the UI clean and intuitive, using appropriate fonts, colors, and layout techniques.
+    . Use Flexbox or Grid to organize the layout.
+
+JavaScript Logic:
+    . When the form is submitted, capture the input values (expense name and amount).
+    . Add the new expense to a list and update the display.
+    . Keep a running total of all expenses and update it whenever a new expense is added.
+    . Allow the user to delete individual expenses from the list, and adjust the total accordingly. 
+ -->

@@ -1,0 +1,22 @@
+
+.parent{
+    box-sizing: border-box;
+    width: 400px;
+    height: 450px;
+    background-color: orange;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: 10px solid red;
+    padding: 5px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+.box1{
+    width: 90%;
+    height: 50px;
+    background-color: darkviolet;
+    position: fixed;
+    
+
+}

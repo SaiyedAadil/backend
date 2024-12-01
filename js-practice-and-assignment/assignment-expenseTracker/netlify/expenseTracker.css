@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: skyblue;
+}
+
+body {
+  position: relative;
+}
+
+h1 {
+  font-size: 2rem;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 30vh;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: lightblue;
+  border-bottom: 2px solid #dadada;
+  z-index: 1;
+}
+
+.container::before,
+.container::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  z-index: -11;
+  background: linear-gradient(blue, skyblue);
+  filter: blur(30px);
+  box-shadow: 0 0 100px 10px lightblue;
+  animation: moveBubbles 8s infinite alternate ease-in-out;
+}
+
+.container::before {
+  width: 200px;
+  height: 200px;
+  top: 25px;
+  left: 50px;
+  mix-blend-mode: overlay;
+}
+
+.container::after {
+  width: 300px;
+  height: 300px;
+  bottom: 50px;
+  top: -80px;
+  right: 10%;
+  mix-blend-mode: overlay;
+}
+/* Animation for moving the bubbles in random directions */
+@keyframes moveBubbles {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: rotate(180deg);
+  }
+
+  50% {
+    transform: translate(-30%, 20%);
+  }
+
+  75% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: translate(-10%, 30%);
+  }
+}
+
+.container form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 30% 20%;
+  gap: 0.3rem;
+  padding: 0 10%;
+  margin-top: 15px;
+  position: relative;
+  z-index: 2;
+}
+
+.container input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.container input[type="text"],
+[type="number"] {
+  height: 30px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.container input[type="number"] {
+  position: relative;
+  z-index: -1;
+}
+
+.container input[type="submit"] {
+  height: inherit;
+  padding: 0 10px;
+  background-color: lightgreen;
+  color: darkgreen;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 255ms ease-in-out;
+  border: 1px solid darkgreen;
+}
+
+.container input[type="submit"]:focus {
+  /* transform: translate(-5px, -2px); */
+  transform: scale(0.96);
+  cursor: pointer;
+}
+
+#listExp {
+  display: flex;
+  margin: 10px;
+  background-color: rgba(245, 245, 245, 0.51);
+  min-height: 55vh;
+  padding: 0px 2rem;
+  flex-direction: column;
+  position: relative;
+  z-index: 5;
+  border-radius: 20px;
+}
+#listExp:hover {
+  border-radius: 0%;
+}
+#listExp li {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  margin: 6px 0px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  color: green;
+  position: relative;
+  z-index: 9;
+  font-size: 1.3rem;
+  list-style: none;
+}
+
+#listExp li span {
+  color: blueviolet;
+  font-weight: bolder;
+}
+
+#delete-span {
+  text-align: right;
+  position: relative;
+  padding-right: 22px;
+}
+
+#delete-span button.delete-btn {
+  font-size: 1rem;
+  width: 100px;
+  height: auto;
+  padding: 5px;
+  background-color: red;
+  font-weight: 600;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 0px whitesmoke;
+}
+#delete-span button:hover {
+  box-shadow: inset 0px 0px 5px 0px whitesmoke;
+}
+
+.theme-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 80%;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  background-color: #1e1e1e;
+  /* background-color: navy; */
+  color: white;
+  top: 8%;
+  right: 5%;
+}
+.theme-btn:hover {
+  box-shadow: 0 0 10px 5px whitesmoke;
+}
+#total-container {
+  text-align: center;
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 900;
+  z-index: 2;
+  position: relative;
+  text-decoration: underline overline dashed 2px;
+  text-underline-offset: 6px;
+}
+#emptyMessage {
+  text-align: center;
+  font-size: 2rem;
+  color: #918c8c;
+  margin-top: 10%;
+}
+@media screen and (max-width: 600px) {
+  .container form {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+  }
+  form #expName,
+  #expAmt {
+    margin-bottom: 5px;
+  }
+  form #submit {
+    font-size: 1.2rem;
+    padding: 5px 0px;
+  }
+  .container {
+    padding-top: 4vh;
+    height: auto;
+    width: 100%;
+  }
+  h1 {
+    font-size: 1.8rem;
+    padding-right: 5%;
+  }
+  .container input[type="submit"] {
+    width: 100px;
+  }
+}

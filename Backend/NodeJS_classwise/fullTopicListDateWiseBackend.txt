@@ -1,0 +1,206 @@
+Frontend:
+
+. 
+
+. 
+
+. …
+
+### Backend:
+
+November:
+
+18:
+
+. Backend Started
+
+. crud operation explained
+
+. ui explained
+
+. api explained
+
+. db-nosql-mongodb explained
+
+. backend explained
+
+. Query process fronted to backend to database explained
+
+. gateway, endpoint overview
+
+. request-response flow architecture
+
+. started NodeJS - setup project
+
+. npm init, http request explanation started
+
+. nodejs documentation:
+
+. module system access from this
+
+. http import
+
+. created server using:
+
+. const server = …
+. http.createServer()
+
+. server.listen(5000)
+
+. Task given: 
+
+. understand PORTS
+
+. why these PORTS
+
+. how does it relates to software ports
+
+. devops work explained:
+
+. if you don’t connect to network it’ll just running on localhost
+
+. a lot of networking and mapping of the server to the internet and routing and all these different stuff
+
+. that typically handled by your devops team, they handle all those stuff.
+
+. you just have to create a server and give it to them
+
+. a software server creation is your responsibility (you)
+
+. listen method params executed
+
+. completed creation of first backend server
+
+November:
+
+. 19:
+
+. what did we discuss yesterday?
+
+. yesterday Task given explored
+
+. Brief discussed yesterday:
+
+. how to software architecture mvc works
+
+. ui → backend → server
+
+. the db is model
+
+. backend is controller
+
+. what’s api meme understand
+
+. api endpoint explained
+
+. you want certain resource, you go to certain gateways
+
+. api endpoint which will give you certain resources
+
+. For instance: login hit the login api \ endpoint
+
+. controller explained: essentially api
+
+. you are making request to cashier
+
+. cashier will request to db
+
+. db come to response
+
+. order is given to you
+
+. mdn hTTP status
+
+. routing nodejs:
+
+. code:
+
+. const server = http.createServer((req, res) ⇒ {
+
+// console.log(req.body)
+
+// req.statusCode = 400
+
+// req.end(”Hello World!”);
+
+if(req.url.includes(”welcome”) {
+
+res.statusCode = 200;
+
+res.end(”Welcome to my backend server!”)
+
+} else {
+
+res.statusCode = 404;
+
+res.end();
+
+}
+
+})
+
+. routing through nodejs is difficult
+
+. express js is introduced
+
+. can create webApp, apis, performance, middleware
+
+. OpenJS Foundation
+
+. package.json file explained
+
+. it’s best to learn in paralelly, to get much more understanding.
+
+. Tomorrow we gonna see:
+
+. expressJS
+
+. REST api, another terminology
+
+. standard of creating an api
+
+20 November :
+    . yesterday done summary
+    . how to utilize modules/package:
+        . builtin / local package/module like: http, path, fs, os, require
+        . thirdparty module: nodemodules created
+            . created by someone
+            . like react, expressJS
+    . file Structure:
+        . app-old.js
+        . app.js
+        . module.js
+        . package.json
+    
+    . why shifting from normal nodejs to expressjs
+    . 
+    . app.js code:
+        . app.listen()
+    . build some routes to clear idea of how routings working
+    . endpoint:
+        . example: /welcome
+        . specific message at welcome path
+    . controller part after routing done in express js, 
+    . we follow some rest api standard: transferring a state from client to server based on req-res;
+    . REST api some rules:
+        . everything is considered/ endpoint create is resource
+        . it always follows some methods/ http methods
+        . explained: GET, POST, PATCH, PUT, DELETE, and manymore
+        . api limitations explained
+        . layered system explained
+        . cache explained overview
+        . REST api stateless
+        . .json() when successful response
+    . you have to understand routes and what to do on which routes;
+    . some common pitfalls while designing the rest apis
+        . ignoring standards
+        . you do get instead put, post instead of get
+    . we gonnna see:
+        . layered architecture
+        . create routes
+        . how do you separate controllers
+        . dynamic routes,
+        . pass dynamic value from client side
+        . all the crud operations tomorrow
+    
+

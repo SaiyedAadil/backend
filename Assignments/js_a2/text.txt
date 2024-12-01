@@ -1,0 +1,27 @@
+1. FizzBuzz
+
+-   Write a function fizzBuzz that takes an integer n and:
+
+-   Returns "Fizz" if the number is divisible by 3.
+
+-   Returns "Buzz" if the number is divisible by 5.
+
+-   Returns "FizzBuzz" if the number is divisible by both 3 and 5.
+
+-   Otherwise, returns the number.
+
+2. Sum of Even Numbers
+
+-   Write a function sumEvenNumbers that takes an array of numbers and returns the sum of all even numbers in the array.
+
+3. Factorial Calculation
+
+-   Write a function factorial that calculates the factorial of a given number using a loop. If the number is negative, return -1 to indicate an invalid input.
+
+4. Find the Largest Number
+
+-   Write a function findLargestNumber that takes an array of numbers and returns the largest number using a loop.
+
+5. Check Prime Number
+
+-   Write a function isPrime that takes a number and returns true if it's a prime number, and false otherwise.

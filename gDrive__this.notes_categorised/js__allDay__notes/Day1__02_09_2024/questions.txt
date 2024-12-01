@@ -1,0 +1,19 @@
+    . Why JavaScript?
+
+    . What is JavaScript Engine?
+
+    . Scripts?
+
+    . NodeJS?
+
+    . How JavaScript compile?
+
+    . Whatis a variable?
+
+    . What are the benefits of creating variable?
+
+    . Can multiple value assign?
+
+    . Data Types?
+
+    . How to deal with undefined?

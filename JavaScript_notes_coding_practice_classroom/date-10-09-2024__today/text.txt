@@ -1,0 +1,8 @@
+syntax different
+
+map method: they work is to return something.
+map, reduce, sum... return something (work)
+
+q: 
+    . what is loops?
+    . loops are considered as block of code to perform repeteadly, based on condition, if condition satisfy stop, otherwise repeat the process as loop.

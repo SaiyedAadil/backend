@@ -1,0 +1,11 @@
+    . OPTIMIZATION of the code
+
+    . Design:
+        . In programming design not only means, ui animations etc.
+        . low level system design:
+            . means at the lowest level, how is your structure of that system
+        
+    . objects:
+        . rea life entity
+        . it has property and value
+    

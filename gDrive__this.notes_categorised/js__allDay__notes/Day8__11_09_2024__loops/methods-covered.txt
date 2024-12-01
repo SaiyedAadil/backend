@@ -1,0 +1,19 @@
+    - map method
+        . arrow function
+        . parameters
+        . operations simple math
+        . return
+    - string:
+        . toUpperCase()
+
+    - Array:
+        . push()
+        . filter()
+        . includes()
+        . fill()
+        . every()
+        . some()
+        . concat()
+        . entries()
+        . find()
+        . flat()

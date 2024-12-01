@@ -1,0 +1,15 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "first",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node"
+  },
+  "author": "aadil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}

@@ -1,0 +1,84 @@
+    - yesterday discussed forEach loop... it's just more than that...
+    - forEach loop: performing an operation, doesn't return anything | for to know that how many times per iteration has   
+    - in that You should have the idea of number of iterations, you have just to track some values. 
+    - map method
+    
+    - keep this.in mind: array, reduce, filter, some, every: these all methods return something
+    - that work is to return some value after the operations that they look
+
+    - map: 
+        . It also takes a callback function
+        . now, this callbackFunc is executed on each element.
+        . At the end of the loop, as many return got, it will store in array and lastly return it.
+        . params:
+            . selected elem(iterate) selected value at index.
+                . the value of the elem at the current iteration.
+            . its index number
+        . with this, you are printing value, based on the dynamic array
+    
+    - In react, when we return the html, it'll display on the ui.
+
+    - filter:
+        . callback func same.
+        . it just gives true or false;
+        . If the value is truthy, it'll catch, stor in array and return it, otherwise won't
+        . ex: only if the condition satisfy, you'll store and display on ui. if not then it will not display on ui
+    
+    - fill: manipulate existing array;
+        . 3 params:
+            . 1st -> what value to fill
+            . 2nd -> filling start from which index
+            . 3rd -> finish filling (last index ignore) ex: 5, means till 4
+    - every: 
+        . if the entire array is true, then only it gives true;
+        
+    - some: 
+        . if just one satisfy the condition in entire array i will return true
+
+    - reduce:
+    . I want to calculate sum of the elements
+        . you have to pass 2 arguments in this method
+            . 1 is the callback funciton
+            . 2 is the initial value of the return state
+        . param:
+            . 1 is accumulator, (previous value)
+            . 2 current value (current selected element)
+        . initially value, lets suppose 0, [] (empty array;)
+
+    . in map, filter: you have only 1 args which is callBackFunc;
+    . but in reduce you have 2, callBackFunc, and initial value
+
+    - next class objects:
+        . why do we need objects for data structures?
+
+    - DSA:
+        . It is essentially how do you structre data and storing in a programming language.
+        . It's nothing do with optimization or anything. It's JUST data structure.
+        . The algorithm part is important
+            . when/where you write the code such that it take less time, and less space.
+            . that's the algorithm you gonna learn.
+
+        . learning DSA suggestion/guidance by sir:
+            . that's not right way, you don't learn it right away.
+            . you can learn it parallely somewhere else also,
+            . first, you get into a prog. lang., gain a good grip onit. then you jump into DSA
+            . one common thing students asked this learning dsa.
+
+    - what is param: 
+        . param - it's basically referring to argument;
+            . where you are accessing(value) within the function
+        . args: you set the value will executing the function
+        how you read this sort of info:
+
+
+    - find() : ye filter method ke waisa hai
+        . you have to write condition directly
+        . it's basically we saying to this method:
+        . search for this conditon get me that element:
+            . first condition match hoke array me se aajata;;
+
+    - findIndex: 
+        . somehow same find().. findIndex()
+
+    - flat: 
+        . when you have in array in arrays

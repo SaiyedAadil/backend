@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------
+JS Assignment 1
+
+    -   Problem 1: Declare a variable age and assign it a number value. Use if-else to check if the age is 18 or above. If it is, set another variable canDrive to "Yes". Otherwise, set canDrive to "No". Print canDrive to the console.
+
+    - Problem 2: Declare a variable number and assign it a value. Use if-else to check if the number is even or odd. Store the result in a variable called result with the value "Even" or "Odd". Print result to the console.
+
+    - Problem 3: Declare two variables num1 and num2 and assign them number values. Use if-else to check which number is greater and store the greater number in a variable called max. Print max to the console.
+
+    -   Problem 4: Declare a variable score and assign it a number value. Use if-else statements to assign a grade based on the value of score:
+
+        - 90 and above: "A"
+        - 80 to 89: "B"
+        - 70 to 79: "C"
+        - 60 to 69: "D"
+        - Below 60: "F"
+
+---------------------------------------------------------------------------

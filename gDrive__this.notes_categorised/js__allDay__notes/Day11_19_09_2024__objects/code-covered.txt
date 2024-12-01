@@ -1,0 +1,16 @@
+    - for loop
+
+keywords:
+    . this keyword 
+        . this is basically referring to the current object(function) which the function is written
+        . there's a lot of scenarios regarding this keyword:
+        . always referred to within which it is called:
+        . example:
+            . const person = {
+                isBlocked: false;
+                changePrimary: function (type){
+                    console.log(this) // refferring to person obj
+                }
+            }
+
+

@@ -1,0 +1,220 @@
+Here’s a structured version of your content for better readability and understanding:
+
+---
+
+##   Frontend  
+-  (Details to be added) 
+
+---
+
+##   Backend Development Progress  
+
+###   November 18:  
+# Topics Covered:
+1.   Backend Started  
+   - CRUD operations explained.
+   - UI and API interaction explained.
+   - Database concepts: NoSQL||semi-sql(MongoDB) introduction.
+   - Backend functionality overview.
+   - Query process flow: Frontend → Backend → Database.
+
+2.   Networking & Architecture:  
+   - Gateway and endpoint overview.
+   - Request-response flow architecture.
+
+3.   Node.js Setup:  
+   - Project setup using `npm init`.
+   - Basics of HTTP requests in Node.js.
+   - Documentation: Node.js module system, `http` import.
+
+4.   First Server Creation:  
+   - Created server using:
+     ```javascript
+     const server = http.createServer();
+     server.listen(5000);
+     ```
+   -   Tasks Given:  
+     - Understand ports and their significance.
+     - Connection mapping (localhost vs. network routing).
+
+5.   DevOps Insights:  
+   - Networking, server mapping, routing handled by DevOps.
+   - Developers focus on server creation.
+
+================================================================
+November 19:  
+Topics Covered:
+   User --> Backend(controller) --> DB(model)
+   1.   Review of Previous Day:  
+      - Discussed software architecture (MVC).
+     -   Model:   Database.
+     -   View: ReactJS - Vue
+     -   Controller:   NodeJS, ExpressJS, Backend APIs.
+     -   View:   UI.
+   . api endpoint: 
+    . you want mern course you go to mern door
+    . certain api endpoint will give you certain resources
+    . login api will hit only specific one api endpoint that is loginapi
+   . req.url:
+    . after dowmain url shows 
+   . req.body:
+    . still loading unless and until address req with a res
+   . statusCode:
+    . you can manually assign statusCode
+    . status Code is standard
+    . status code is not mandate
+    . there is a differnce b/w standard and mandate
+    . difference b/w standard you have to follow, and actual syntax you have to follow
+    . I can identify the res based on statusCode, and check if it's valid or not, and when it's not valid still getting response means I figure out this should not happens.
+   . 
+   2.   API Concepts:  
+   - API as a gateway to resources.
+   - Example: Login endpoint.
+   - Controller analogy: Cashier requesting from DB and returning response.
+   . addon:
+    . in php all backend, fronted everything are in one architecture
+   3.   HTTP Basics:  
+   - Explored MDN HTTP status codes.
+   Informational response: 100 - 190
+    . typically when you have router, routing stuff going on
+   Successful responses: 200 - 290
+   Redirection messages: 300 - 390
+   Client error responses: 400 - 490
+   Server error responses: 500 - 590
+   
+   4.   Routing with Node.js:  
+   - Sample code for basic routing:
+     ```javascript
+     const server = http.createServer((req, res) => {
+         if (req.url.includes("welcome")) {
+             res.statusCode = 200;
+             res.end("Welcome to my backend server!");
+         } else {
+             res.statusCode = 404;
+             res.end();
+         }
+     });
+     ```
+   - Challenges with Node.js routing led to introduction of Express.js.
+   
+   5.   Express.js Introduction:  
+   - Simplifies web apps, APIs, and middleware.
+   - Introduced by OpenJS Foundation.
+   - Package.json file explanation.
+
+================================================================
+
+### November 20:
+Commit:
+   . REST
+   . express initial
+   . routes with controller
+   . json responses
+
+Topics Covered:
+    1.   Review of Previous Day:  
+       - Recap of routing and API concepts.
+    
+    2.   Modules and Packages:  
+       -   Built-in:   `http`, `path`, `fs`, `os`.
+       -   Third-party:   Node modules like React, Express.js.
+    
+    3.   File Structure:  
+       - Key files:
+         - `app-old.js`
+         - `app.js`
+         - `module.js`
+         - `package.json`
+    
+    4.   Transition from Node.js to Express.js:  
+       - Advantages of Express.js over plain Node.js.
+    
+    5.   Express.js Routes:  
+       - Sample endpoint creation:
+         ```javascript
+         app.get('/welcome', (req, res) => {
+             res.json({ message: "Welcome to the API!" });
+         });
+         ```
+    
+    6.   REST API Standards:  
+       - Resource-based endpoints.
+       - HTTP methods(standard): `GET`, `POST`, `PATCH`, `PUT`, `DELETE`.
+                        get, create, specificUpdate, entireUpdate, delete
+       - REST API principles:
+         - Statelessness.
+         - Cacheability.
+         - Layered system. - easily identify flow of api even huge application
+       - Common pitfalls:
+         - Misusing HTTP methods (e.g., using `POST` instead of `GET`).
+       - API Limitations:
+         . created at server level
+         . always treat request as a new request
+      - Identify by a unique URI;
+      - architectural(followed standard) style
+      - Layered architectural system:
+         . structured flow from folders to files, easily identify application, api flow
+      - cachebility:
+         . temp storage:
+            . it remembers what you are trying to do
+            . stateless;
+            . same resources, from cache not going directly to server 
+    7.   Upcoming Topics:  
+       - Layered architecture.
+       - Dynamic routes and value passing.
+       - CRUD operations implementation.
+    8. File Management System in Backend
+
+
+---
+
+================================================================
+Nov     -: 23 :-    
+----------------
+Topics Covered:
+   . Client to Backend data transfer done
+Notes:
+    . 
+================================================================
+================================================================
+Nov     -: 26 :-    
+----------------
+Topics Covered:
+   . mongoose started
+FullTopicsList:
+    . 
+================================================================
+================================================================
+Nov     -: 27 :-    
+----------------
+FullTopicsList:
+    . 
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+================================================================
+

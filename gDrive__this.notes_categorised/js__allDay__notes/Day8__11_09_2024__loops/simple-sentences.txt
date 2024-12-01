@@ -1,0 +1,13 @@
+    . any questions, any doubts, over here
+
+    . Let's say you have an array with some numbers
+
+    . this is done using inbuild method because:
+      . es6 introduced feature: versions
+      . map, filter, reduce, every, some
+    
+    . again pretty simple thing, you going through the array checking if it's satisfies the condition
+    . again the question of data structre comes into picture;
+    . take this function and do the operation.
+    . call it whenever you need it's 
+    . it's basically what it is saying

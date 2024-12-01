@@ -1,0 +1,12 @@
+/* experiment converting min-max */
+body{
+    background-color: lightcoral;
+}
+.box{
+    width: 50vh;
+    /* height: 50vh; fixed height - content overflow */
+    min-height: 50vh; /* fixed+flexible means - if my content is <50vh then fixed. if my content > 50vh then*/
+    background-color: chocolate;
+    border: 10px solid yellowgreen;
+    padding: 15px;
+}

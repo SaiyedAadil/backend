@@ -1,0 +1,6 @@
+Google:
+    . JavaScript
+
+YouTube:
+    . History of JS
+    . Brendan Eich

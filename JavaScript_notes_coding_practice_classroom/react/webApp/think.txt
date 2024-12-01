@@ -1,0 +1,34 @@
+array map method:
+    in jsx syntax;
+
+missing key prop for element: 
+    ,,, react: all elems are same;
+            but in eyes of jsx is a key as prop
+    .. you need to have a unique identifies so that react neeeds to differentiate; in react;
+
+yt: <map method works in react js>;
+what is state:
+why, using/happening in state in react?
+
+work of holding the data / rendering the data;
+divide the separation of the stuff; usage of components
+
+
+. real dom;
+. virtual dom;
+    . it's reflecting/updating in virtual dom;
+    . it's not updating in real dom
+    . process known as Diffing process
+and the function to update the state, useState()
+1st val: state, 2nd is useState;
+
+you cannot directly manipulate state or in js(variable)
+
+clear, got it!
+internal data stored with update functionality;
+
+hooks created to need of inheritance like in classes;
+tomorrow: 
+    . state, with conditional rendering;
+
+

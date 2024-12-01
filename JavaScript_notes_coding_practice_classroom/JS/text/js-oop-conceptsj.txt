@@ -1,0 +1,58 @@
+hello:
+    . OOp is not a landguage or too.
+    . It's a style of programming or a programming paradigm
+concepts:
+    1. Getting Started
+    2. Objects
+    3. Prototypes
+    4. Prototypical Inheritance
+    5. ES6 Classes
+    6. ES6 Modules
+Topics in concepts:
+1. Getting Started:
+    . What is OOP?
+    . Four Pillars of OOP
+    . Setting Up the Development Environment
+    . Structure
+2. Objects: 
+    . Introduction
+    . Object Literals
+    . Factories
+    . Constructors
+    . Constructors Property
+    . Functions are Objects
+    . Value vs Reference Types
+    . Adding or Removing Properties
+    . Enumerating Properties
+    . Abstraction
+    . Private Properties and Methods
+    . Getters and Setters
+    . Exercise-stopwatch
+    . solution-stopwatch
+3. Prototypes:
+    . Inheritance
+    . Prototypes and Prototypical Inheritance
+    . Multi-level Inheritance
+    . Property Descriptors
+    . Constructor Prototypes
+    . Prototype vs. Instance Members
+    . Iterating Instance and Prototype Members
+    . Avoid Extending the Built-in-Objects
+    . Exercise
+    . Solution
+4. Prototypical Inheritance:
+    . Creating Your Own Prottypical Inheritance
+    . Resetting the Constructor
+    . Calling the Super Constructor
+    . Intermediate Function Inheritance
+    . Method Overriding
+    . Polymorphism
+    . When to Use Inheritance
+    . Mixins
+    . Exercise - Prototypical Inheritance
+    . Solution- Prototypical Inheritance
+    . Exercise - Polymorphism
+    . Solution - Polymorphism
+. Quotes:
+    . “Everyone should know how to code a computer, because it teaches you how to think!” – Steve Jobs
+    . OOP: A programming paradigm centered around objects rather than functions

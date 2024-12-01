@@ -1,0 +1,5 @@
+    . What essentially array method does?
+
+    . What does map function do?
+
+    . 

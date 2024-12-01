@@ -1,0 +1,195 @@
+question: 
+    . what else do we store?
+    . nowadays we have to store various things in key value pairs
+    . How does it stores behind the scene?
+    . what does map method do?
+    . How do I remove this reference type if I don't want in code?
+        . How do I do that?
+            . answer: there are actually 2-3 ways, actually 2 major ways:
+                . 1. to use a loop name is: for in loop
+                . 2. 
+
+    . What does for in loop do? (object specific loop)
+        . answer: It's specific to objects
+            . you can only apply to on objects:
+            . syntax is like this:
+                . you gonna initialize something known as "key"
+                . and you gonna say, go and select all the keys in this particular object i.e. obj 1
+                . you have obj1, go to object, and select single key with each iteration.
+                    . means aap ke paas do keys hai,
+                    . it'll go to each property one by one
+                    . if I say, consol.log(key) in for in loop scope, 
+                    . you gonna get key/property name of this obj1 object. (a, b, c)
+    . How do I create properties in obj2 while not touching obj1, in for loop?
+        . I have keys in obj1, same keys I want to make in obj2    
+        // can't I use dot notaion instead this bracket: the reason is: when you write it like this obj2.key, 
+            . because, it'll have dynamic values/keys on each iterations, this is the dynamic value we're getting on each iteration: -> code: for (let key in obj1){} : // the key will dynamic   
+            . so to make it dynamic over there, you always have to use bracket, obj2[]
+            . so remember:
+                . you make it dynamic over there, you always have to use bracket.
+                . so, whenver you try to write it a dynamic key which can change based on anything,
+                . you have to use bracket notation
+=================================================
+
+programming/logic building : 
+    . HTTP protocols
+        . in this protocol
+            . sending = json.stringify
+            . receiving = json.parse
+    . How objects work?
+        . That's the only thing you gonna do in development.
+        . everything is objects and arrays, under different types, stuffs 
+        . How do you store data, 
+        . why do we need this, 
+            . because structurized format to communicate frontend and backend.
+        . request - response
+
+    . logic building, questions understaning,
+        . different scenarios
+        . edge cases
+        . optimization
+        . differnt ways for differnt stuff
+        . more
+        . more
+        . more...
+=================================================
+class notes: 
+    . these are all essentially encapsulating to form one single object.
+    . this helps us to store multiple data of a single person in one location. (object)\
+    . function nothing but called as methods 
+    . map method: 
+        . It acts as a loop, call the function everytime it iterates
+        . then what happens with the function? It's a callback function
+            . ans:
+                . 1 thing: map function performs the operation on each element
+                . 2nd thing: the result of that operation is stored in a new array, it generates an array, and stores the result of each operation on each element.
+    . JSON is JavaScript Object Notation,
+        . it's kind of markup language, like html
+        . before this, xml is used to key, value pair but in differnt way.
+        . It's not a language, but notation
+            . notation: a way you write thing
+            . json: common notation, shared by other programming languages
+            . you can communicate one programming language to different programming language.
+=================================================
+remember:
+    . in programming world
+        . you have to be well versed in objects - 
+        . 1: you have to understand how you are accessing?
+        . 2: how you are accessing the objects?
+        . 3: how do you manipulate objects?
+    . shallow copy = one level, if it's nested then it'll do only 1 copy, and others will be of reference
+    . spread operator = one level
+    . json.parse/stringify = works find in multiple nested objects
+
+=================================================
+important: 
+    . it is the only way in js, that you can actually stored different type of data about a single entity in one place (best way)
+    . at the end of the day Why we re learning this?
+        . how to store data?
+        . how to work with data
+    . entire game of development is data
+    . in any application the core thing is (you're capturing data, you're sending it to someone)
+        . that's all this is, 
+        . this is the lowest level of that entire process (lowest system design)
+        . kahani yaha se shuru hoti (fundamentals of js), coding, programming, designing
+    . objects:
+        . these(objects) considered as Reference type data type
+            . what does it mean?
+            . address, memory location,
+            . It won't just copy/paste over here,
+                . but,
+                . or it does it create a reference to it
+=================================================
+simple sentences:
+    . this helps us to store multiple
+    . these could be the number, but essentially ...
+    . you converted in object format, coz you know in this format you can make much more about this person.
+
+=================================================
+interesting: 
+    . reflection of an object : this is a shallow copy, okay!
+        . you are creating a copy of that object in this process is called reflection:
+        . now let say what happens is this is a top level thing, 
+        . and deep copy will be nested objects in object.
+        . shallow means first layer
+    . but to doing this, there's always a substitute of this, 
+        . instead of doing all of these thing,
+        . I can just say
+            . code:
+                let obj2 = { ...obj1 } //spread operator, it's creating a copy, disconnecting a reference, and you're able to manipulating without manipulating actual object
+                . but here, this is a deep copy.
+                . any level, no, only 1 level is this
+                . but in shallow, only 1 level
+                . but if you want it, JSON, inbuild package in js, json.parse, json.stringify() and etc.
+                    . it'll create complete copy,
+=================================================
+terminology: 
+    . directory 
+    . stored
+    . serialization of object
+    . notation
+=================================================
+methods:
+    . changePrimary: function()
+    . JSON.parse/stringify = responsible for:
+        . shalow,deep copy,
+        . covert whole object to stringify, converts back to obj-js data type.
+
+=================================================
+topics coveerd:
+    . this keyword (always refer to the current objct within whic is called)
+        . it depends on different scenarios - seeing later
+    . JSON
+    . reference type
+    . spread operator
+    . original obj, copied obj
+    . manipulating objects from 
+    . for in loop --> object specific loop
+    . logic:
+        . person contact no: primary yes or no.
+=================================================
+
+classNotes-part 2
+
+Topic:
+    . Objects
+
+. what will be the structure of Contacts, which is in your phone
+
+take exampl of zomato (food delivery app)
+    . when you order, it's actually behind the scenes do this information structure in object format
+    . that data is only information
+    . in any application you take,
+    . the core thing is,
+        . you're capturing the data and sending it to someone
+    . this is the lowest level of that entire process:
+        . lowest level system design
+        . where you're starting, where does at story begins
+        . story begins from this
+
+let's discuss methods in objects:
+    . I'm creating a method in my person object:
+        . changePrimary: function (){}
+
+    . this keyword:
+        . it behaves differently in different scenarios
+        . 
+    . what map function essentially do
+        . map function essentially does is
+            . 1 is, it performs an operation on each element
+            . 2 is, the operation is again, stored in a new array
+            . it generates an array, and stores the result of each operation on each element
+    . spread operator
+    
+    . in js, we call it serialization of objects:
+        . json.stringify()
+        . json.parse()
+
+concepts:
+    . shallow copy --> 1st level, for in loop
+    . deep copy --> deep level, JSON
+
+=================================================
+
+
+

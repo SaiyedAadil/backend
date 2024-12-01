@@ -1,0 +1,17 @@
+day4__14th_august
+
+why do we use tables?
+lets say you have a list of students,
+you're having to display in tables,
+like which class, student management table,
+so for that very reason, you used tables and you refer to it and make decision based on it.
+
+Semantic: jo naam se pehchane jaate ke achha ye navigation hai, sidebar hai...
+NonSemantic: jo naam se nai pechane jaate, but for the wrap up things, and act as container.
+
+------------------
+--------------
+---------------
+--------------
+----------------
+--------------

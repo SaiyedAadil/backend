@@ -1,0 +1,19 @@
+.parent{
+    font-size: 20px;
+}
+.heading{
+    font-size: 2rem;
+}
+/* html{
+    font-size: 20px;
+} */
+.box{
+    background-color: burlywood;
+    height: 50vh;
+    width: 50vh;
+
+    border: 10px solid rgb(161, 106, 3);
+    /* border-radius: 50%; */
+    padding: 5x;
+    margin: 0 auto;
+}
