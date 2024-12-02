@@ -1,5 +1,9 @@
 import express from "express";
 import productsRouter from "./routes/productsRoute.js";
+import mongoose from "mongoose";
+mongoose.connect("mongodb://localhost:27017/firstPrj")
+    .then(() => console.log("DB connected successfully!"))
+    .catch(err => console.log(err))
 const app = express();
 
 // Middleware to parse JSON data in request body

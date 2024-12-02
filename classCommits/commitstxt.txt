@@ -69,7 +69,7 @@ Nov
 				}
 ================================================================
 Backend:
-        18-Nov-24 ( Backend Session - 1 ) intro nodejs, backend
+       c1 18-Nov-24 ( Backend Session - 1 ) intro nodejs, backend
 			. Backend Started
 			. Networking & Architecture
 			.  Node.js Setup
@@ -77,15 +77,19 @@ Backend:
 			. DevOps Insights
 			. Ai-Link:
 				. https://www.meta.ai/c/4a137b6c-3b2c-4c1b-9e58-a19e750bdae1
-        19-Nov-24 ( Backend Session - 2 ) nodejs, api overview
-        20-Nov-24 ( Backend Session - 3 ) express
-        21-Nov-24 ( Backend Session - 4 ) getbook
-        23-Nov-24 ( Backend Session - 5 ) addbook, editbook
-        25-Nov-24 ( Backend Session - 6 ) delete, mongodb
-        26-Nov-24 ( Backend Session - 7 )
-        27-Nov-24 ( Backend Session - 8 )
-        28-Nov-24 ( Backend Session - 9 )
-        29-Nov-24 ( Backend Session - 10 )
+       c2 19-Nov-24 ( Backend Session - 2 ) nodejs, api overview
+       c3 20-Nov-24 ( Backend Session - 3 ) express
+       c4 21-Nov-24 ( Backend Session - 4 ) getbook
+       c5 23-Nov-24 ( Backend Session - 5 ) addbook, editbook
+       c6 25-Nov-24 ( Backend Session - 6 ) delete, mongodb server level interaction mongoshell
+       c7 26-Nov-24 ( Backend Session - 7 ) {
+		`	interact our code directly-mongoose
+		`	schema
+		`	convert schema to models
+		}
+       c8 27-Nov-24 ( Backend Session - 8 )
+       c9 28-Nov-24 ( Backend Session - 9 )
+      c10 29-Nov-24 ( Backend Session - 10 )
 ================================================================
 ================================================================
 
