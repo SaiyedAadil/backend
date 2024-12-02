@@ -5,7 +5,7 @@ const router = express.Router();
 router.get("/", (req, res) => {
     res.status(200).json({
         message: "Welcome to Products Server!",
-        routesAccess: {
+        crudOperations: {
             allProducts: "products/getAllProducts",
             singleProduct: "products/getSingleProduct/:id",
             addProductPost: "products/addProduct",
