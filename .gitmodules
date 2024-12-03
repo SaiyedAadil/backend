@@ -1,3 +1,6 @@
 [submodule "subfolder"]
 	path = subfolder
 	url = git@github-user1:Aadil7874/backend.git
+[submodule "BackendExpressJS_classwise"]
+	path = BackendExpressJS_classwise
+	url = https://github.com/Aadil7874/backend.git
