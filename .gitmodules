@@ -4,3 +4,6 @@
 [submodule "BackendExpressJS_classwise"]
 	path = BackendExpressJS_classwise
 	url = https://github.com/Aadil7874/backend.git
+[submodule "Backendmy-nodejs-project"]
+	path = Backendmy-nodejs-project
+	url = https://github.com/Aadil7874/backend.git
