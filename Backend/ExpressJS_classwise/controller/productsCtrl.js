@@ -1,12 +1,61 @@
 import productModel from "../models/productModel.js"
-
+import { getOptions } from "../utils/utils.js"
 const get = async (req, res) => {
     try {
         const products = await productModel.find()   /// db.collection.<-- addressing
-        res.status(200).json({ message: "Products Fetched Successfully!", success: true, data: products })
-
+        const totalRecords = await productModel.countDocuments()
+        res.status(200).json({ message: "Products Fetched Successfully!", success: true, data: products, totalRecords })
     } catch (err) {
         res.status(500).json({ message: "Internal Server Error!", success: false, })
+    }
+}
+const getProductByID = async (req, res) => {
+    try {
+        const prodId = req.params.id;
+        const product = await productModel.findById({ _id: prodId })
+        res.status(200).json({ message: "Product Fetched By ID Successfully!", success: true, product })
+    } catch (err) {
+        res.status(500).json({ message: "Internal Server Error!", success: false, })
+    }
+}
+const getByCategory = async (req, res) => {
+    try {
+        const category = req.params.category.toLowerCase(); // Convert to lowercase
+        console.log(category); // Log the category received from the route
+        const product = await productModel.findOne({ category });
+
+        if (!product) {
+            return res.status(404).json({
+                message: "No product found for this category!",
+                success: false,
+            });
+        }
+
+        res.status(200).json({
+            message: "Product Fetched By Category Successfully!",
+            success: true,
+            product,
+        });
+    } catch (error) {
+        res.status(500).json({
+            message: "Internal Server Error!",
+            success: false,
+        });
+    }
+};
+const getByPagination = async (req, res) => {
+    try {
+        const { sort, skip, dir, pageSize, filter } = getOptions(req)
+        const totalRecords = await productModel.countDocuments()
+        const products = await productModel
+            .find(filter)
+            .sort({ [sort]: dir })
+            .skip(skip)
+            .limit(pageSize)  /// db.collection.<-- addressing
+        res.status(200).json({ message: "Products Fetched Successfully!", success: true, data: products, totalRecords })
+
+    } catch (error) {
+
     }
 }
 const add = async (req, res) => {
@@ -33,6 +82,30 @@ const update = async (req, res) => {
         res.status(500).json({ message: "Internal Server Error!", success: false });
     }
 };
+const updateById = async (req, res) => {
+    try {
+        const productId = req.params._id;
+        const updateData = req.body;
+        await productModel.findOneAndUpdate(
+            { _id: productId },
+            {
+                $set: {
+                    name: updateData.name,
+                    price: updateData.price,
+                    description: updateData.description,
+                    category: updateData.category,
+                    brand: updateData.brand,
+                    rating: updateData.rating,
+                }
+            }
+        )
+        delete updateData._id;
+        res.status(200).json({ message: "Specific Product Updated By Id Successfully!", success: true });
+    } catch (err) {
+        res.status(500).json({ message: "Internal Server Error!", success: false });
+    }
+
+}
 const updatePut = async (req, res) => {
     try {
         const productId = req.body._id;
@@ -61,13 +134,19 @@ const deleteProduct = async (req, res) => {
     try {
         const productId = req.params.id;
         await productModel.findOneAndDelete({ _id: productId });
+        // if (!productId) {
+        //     return res.status(404).json({
+        //         message: `No product found for id: ${productId} !`,
+        //         success: false,
+        //     });
+        // }
         res.status(200).json({ message: "Product Deleted Successfully!", success: true });
     } catch (err) {
         console.log(err)
         res.status(500).json({ message: "Internal Server Error!", success: false });
     }
 };
-export { get, add, update, updatePut, deleteProduct }
+export { get, add, update, updatePut, deleteProduct, getProductByID, getByCategory, updateById, getByPagination }
 // const allProducts = [
 //     {
 //         "id": 1,
@@ -144,3 +223,6 @@ export { get, add, update, updatePut, deleteProduct }
 // }
 
 // export { getAllProducts, getSingleProduct, addProduct, editProduct }
+
+
+
