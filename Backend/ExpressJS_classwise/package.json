@@ -5,7 +5,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "backend-dev": "nodemon --env-file=.env_local app.js",
+    "backend-dev": "nodemon --env-file=.env.local app.js",
     "backend-prod": "nodemon --env-file=.env app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,7 @@
   "author": "aadil",
   "license": "MIT",
   "dependencies": {
+    "cross-env": "^7.0.3",
     "express": "^4.21.1",
     "mongoose": "^8.8.3"
   }

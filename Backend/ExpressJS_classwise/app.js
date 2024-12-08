@@ -16,19 +16,18 @@ app.use(express.json())
 
 const middleware = (req, res, next) => {
     console.log(req.body);
-
     if (req.body.allow) {
         next()
     } else {
         res.status(401).send({ message: "Unauthorized!", success: false })
     }
 }
-app.use("/", middleware, defaultRouter);
 app.use(express.json()); /// Parses any JSON coming in req
-
-app.use("/books", booksRouter);
+app.use("/", middleware, defaultRouter);
 
 app.use("/api", productsRouter)
+
+// app.use("/books", booksRouter);
 
 /// HTTP METHODS - GET, POST, PATCH, PUT, DELETE
 /// http://localhost:5000/users/getUsersList
